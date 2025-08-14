@@ -1,2 +1,2 @@
-# perfmon
-performance monitor
+# perfmon // peformance monitor
+Performance monitor for Terbium!

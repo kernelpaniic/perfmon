@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PerfMon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>PerfMon</h1>
+<div class="stat">CPU: <span id="cpu" class="value">0</span>%</div>
+<div class="stat">Memory: <span id="mem" class="value">0</span> MB</div>
+<div class="stat">FPS: <span id="fps" class="value">0</span></div>
+
+<canvas id="cpuGraph" width="360" height="80"></canvas>
+<canvas id="memGraph" width="360" height="80"></canvas>
+<canvas id="fpsGraph" width="360" height="80"></canvas>
+
+<script src="perfmon.js"></script>
+</body>
+</html>
